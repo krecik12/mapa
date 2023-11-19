@@ -1,8 +1,6 @@
 
 import './App.css';
 import Time from './time/time';
-
-import Panel from './panel';
 function App() {
   return (
     <div className="App">
