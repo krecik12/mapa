@@ -1,0 +1,8 @@
+version: '3'
+services:
+  node:
+    image: node:latest
+    container_name: my_node_container
+    command: sh -c "npm install && npm start"
+    ports:
+      - "8000:8000"
