@@ -1,16 +1,11 @@
 
 import './App.css';
-import Time from './time/time';
+import Map from "./map/index.js"
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-
-
-        page start
-
-        <p>zegar</p>
-        <Time />
+        <Map />
       </header>
     </div >
   );

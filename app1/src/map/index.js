@@ -1,8 +1,11 @@
 import React from "react";
-import Polska from "../galeria/mapy/index"
+import Poland from "../galeria/mapy/poland.tsx"
+import "./style.css";
 let Map = () => {
-    <div class obraz>
-        <Polska />
-    </div>
+    return (
+        <div className="obraz">
+            <Poland />
+        </div>)
+
 }
 export default Map;

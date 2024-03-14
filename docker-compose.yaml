@@ -1,8 +1,8 @@
 version: '3'
 services:
-  node:
+  my_node_container:
     image: node:latest
     container_name: my_node_container
-    command: sh -c "npm install && npm start"
-    ports:
-      - "8000:8000"
+    volumes:
+      - ./app1:/app # Mapowanie katalogu app1 do katalogu /app w kontenerze
+    command: sh -c "cd /app && npm install && npm start"
