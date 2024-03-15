@@ -1,11 +1,11 @@
 import React from "react";
-import Poland from "../galeria/mapy/poland.tsx"
-import "./style.css";
-let Map = () => {
-    return (
-        <div className="obraz">
-            <Poland />
-        </div>)
+import Poland from "../galeria/mapy/poland.tsx";
 
+
+const Map = () => {
+    return (
+        <Poland />
+    );
 }
+
 export default Map;
